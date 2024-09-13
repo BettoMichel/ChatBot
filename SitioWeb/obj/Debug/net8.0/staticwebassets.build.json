@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WP+UtKQXxASYI/0PClCP16DPU11deyYPwYMLsZwA4WU=",
+  "Hash": "XOLSBemadXVc18nM3i20cvZte9kQ5alWgeeXs5C/Op4=",
   "Source": "SitioWeb",
   "BasePath": "_content/SitioWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SitioWeb\\wwwroot",
       "Source": "SitioWeb",
-      "ContentRoot": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\",
       "BasePath": "_content/SitioWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css",
       "SourceId": "SitioWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\",
       "BasePath": "_content/SitioWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\favicon.ico",
       "SourceId": "SitioWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\",
       "BasePath": "_content/SitioWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\index.html",
       "SourceId": "SitioWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\11 Productos\\2024\\ChatBot\\SitioWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\",
       "BasePath": "_content/SitioWeb",
       "RelativePath": "index.html",
       "AssetKind": "All",
