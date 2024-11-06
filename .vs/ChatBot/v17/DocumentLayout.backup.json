@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -36,33 +36,32 @@
               "RelativeDocumentMoniker": "SitioWeb\\SitioWeb.csproj",
               "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\SitioWeb.csproj",
               "RelativeToolTip": "SitioWeb\\SitioWeb.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T04:15:27.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T04:15:27.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "SitioWeb\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "SitioWeb\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "SitioWeb\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-12T23:55:16.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "SitioWeb\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\index.html",
               "RelativeToolTip": "SitioWeb\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAH0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-12T23:54:39.777Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "SitioWeb\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:53:33.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T23:53:33.766Z"
             }
           ]
         }
