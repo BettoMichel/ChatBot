@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\sitioweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\sitioweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|c:\\users\\h1bel\\documents\\github\\chatbot\\sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741437D6-DDA4-4C4F-973D-F8770B0BBBA0}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SitioWeb.csproj",
               "DocumentMoniker": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\SitioWeb.csproj",
               "RelativeDocumentMoniker": "SitioWeb\\SitioWeb.csproj",
@@ -38,7 +38,8 @@
               "RelativeToolTip": "SitioWeb\\SitioWeb.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T04:15:27.138Z"
+              "WhenOpened": "2024-09-13T04:15:27.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +49,7 @@
               "RelativeDocumentMoniker": "SitioWeb\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\css\\site.css*",
               "RelativeToolTip": "SitioWeb\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-12T23:55:16.537Z",
               "EditorCaption": ""
@@ -61,22 +62,23 @@
               "RelativeDocumentMoniker": "SitioWeb\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\wwwroot\\index.html",
               "RelativeToolTip": "SitioWeb\\wwwroot\\index.html",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAH0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-12T23:54:39.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\Program.cs",
               "RelativeDocumentMoniker": "SitioWeb\\Program.cs",
               "ToolTip": "C:\\Users\\H1beL\\Documents\\GitHub\\ChatBot\\SitioWeb\\Program.cs",
               "RelativeToolTip": "SitioWeb\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:53:33.766Z"
+              "WhenOpened": "2024-09-12T23:53:33.766Z",
+              "EditorCaption": ""
             }
           ]
         }
