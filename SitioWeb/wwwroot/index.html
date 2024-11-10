@@ -2,19 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
-
-    <title>Clean chat box - Bootdey.com</title>
+    <title>Chatbox con Selección de Personaje</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
+    <style>
+        .avatar-select {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            cursor: pointer;
+        }
 
+        .selected {
+            border: 2px solid #007bff;
+        }
 
+        .chat-avatar img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
     <div class="container bootstrap snippets bootdeys">
         <div class="col-md-7 col-xs-12 col-md-offset-2">
-
             <div class="panel chat-box" id="chat">
                 <div class="panel-heading">
                     <h3 class="panel-title">
@@ -23,127 +36,138 @@
                 </div>
                 <div class="panel-body">
                     <div class="chats">
+                        <!-- prueba chats -->
                         <div class="chat">
                             <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title data-original-title="June Lane">
-                                    <img src="https://media.licdn.com/dms/image/v2/C4E03AQG1aID1I4ijVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1549637502237?e=1731542400&v=beta&t=cKDvYMHhhyHIgu6VDF8G9JY6cVAzj7rqRfOKdcA-RbA" alt="...">
-                                    <i></i>
-                                </a>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png" alt="Avatar">
                             </div>
                             <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Buenas tardes, Joven.
-                                        <br>En que puedo ayudarle?
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:37">11:37:08 am</time>
-                                </div>
+                                <div class="chat-content">Que haremos ahora?</div>
+                                <time class="chat-time">00:00</time>
                             </div>
                         </div>
-                        <div class="chat chat-left">
-                            <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title data-original-title="Edward Fletcher">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png" alt="...">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Me robó, un inspector de billeteras.
-                                        <br> necesito ayuda
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:39">11:39:57 am</time>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat">
-                            <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title data-original-title="June Lane">
-                                    <img src="https://media.licdn.com/dms/image/v2/C4E03AQG1aID1I4ijVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1549637502237?e=1731542400&v=beta&t=cKDvYMHhhyHIgu6VDF8G9JY6cVAzj7rqRfOKdcA-RbA" alt="...">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Nuestro inspector de seguridad revisara las camaras!
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:40">11:40:10 am</time>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="chat">
-                            <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title data-original-title="June Lane">
-                                    <img src="https://media.licdn.com/dms/image/v2/C4E03AQG1aID1I4ijVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1549637502237?e=1731542400&v=beta&t=cKDvYMHhhyHIgu6VDF8G9JY6cVAzj7rqRfOKdcA-RbA" alt="...">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Aguarde un momento por favor.
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:40">11:40:58 am</time>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="chat chat-left">
-                            <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title data-original-title="Edward Fletcher">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png" alt="...">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Gracias muy amable
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:39">11:42:34 am</time>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class="chat chat-left">
-                            <div class="chat-avatar">
-                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title data-original-title="Edward Fletcher">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png" alt="...">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="chat-body">
-                                <div class="chat-content">
-                                    <p>
-                                        Me Gustaria Saber
-                                        <br> Cual es su nombre, Señor.
-                                    </p>
-                                    <time class="chat-time" datetime="2015-07-01T11:39">11:44:11 am</time>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <div class="panel-footer">
-                    <form>
+                    <form id="chatForm">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Escriba un comentario">
+                            <input type="text" id="userMessage" class="form-control" placeholder="Escribe un mensaje">
                             <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button">Enviar</button>
+                                <button class="btn btn-primary" type="button" id="sendButton">Enviar</button>
                             </span>
+                        </div>
+                        <!-- characters -->
+                        <div id="characterSelection" style="display: none; text-align: center;">
+                            <p>Selecciona a quién enviar el mensaje:</p>
+                            <div>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png" class="avatar-select" alt="Personaje 1" id="char1">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png" class="avatar-select" alt="Personaje 2" id="char2">
+                            </div>
+                            <br>
+                            <button id="submitSelection" class="btn btn-success">Enviar mensaje</button>
                         </div>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
+
+
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            const enviarBtn = document.getElementById("sendButton");
+            const characterSelection = document.getElementById("characterSelection");
+            const submitSelection = document.getElementById("submitSelection");
+            const chatContainer = document.querySelector(".chats");
+            const chatForm = document.getElementById("chatForm");
+
+           
+            enviarBtn.addEventListener("click", function () {
+                var message = document.getElementById('userMessage').value;
+                if (message.trim() !== "") {
+                    characterSelection.style.display = "block"; 
+                }
+            });
+
+            
+            submitSelection.addEventListener("click", function () {
+                var selectedCharacter = document.querySelector('.avatar-select.selected');
+                var message = document.getElementById('userMessage').value;
+
+                if (selectedCharacter && message.trim() !== "") {
+                 
+                    var now = new Date();
+                    var hours = now.getHours();
+                    var minutes = now.getMinutes();
+                    var seconds = now.getSeconds();
+                    var formattedTime = hours + ':' + (minutes < 10 ? '0' + minutes : minutes) + ':' + (seconds < 10 ? '0' + seconds : seconds);
+
+                   
+                    var newChat = document.createElement('div');
+                    newChat.classList.add('chat');
+
+                    var avatar = document.createElement('div');
+                    avatar.classList.add('chat-avatar');
+                    var img = document.createElement('img');
+                    img.src = selectedCharacter.src;
+                    avatar.appendChild(img);
+
+                    var chatBody = document.createElement('div');
+                    chatBody.classList.add('chat-body');
+                    var chatContent = document.createElement('div');
+                    chatContent.classList.add('chat-content');
+                    chatContent.textContent = message;
+
+                    var chatTime = document.createElement('time');
+                    chatTime.classList.add('chat-time');
+                    chatTime.setAttribute('datetime', now.toISOString());
+                    chatTime.textContent = formattedTime;
+
+                    chatBody.appendChild(chatContent);
+                    chatBody.appendChild(chatTime);
+                    newChat.appendChild(avatar);
+                    newChat.appendChild(chatBody);
+
+                    
+                    if (selectedCharacter.id === 'char1') {
+                        newChat.classList.add('chat-left');
+                    } else if (selectedCharacter.id === 'char2') {
+                        newChat.classList.add('chat-right');
+                    }
+
+                    chatContainer.appendChild(newChat);
+
+                    
+                    document.getElementById('userMessage').value = '';
+                   
+                    characterSelection.style.display = 'none'; 
+
+                    // no quitar
+                    document.querySelectorAll('.avatar-select').forEach(function (img) {
+                        img.classList.remove('selected');
+                    });
+                }
+            });
+
+           
+            document.querySelectorAll('.avatar-select').forEach(function (img) {
+                img.addEventListener('click', function () {
+                    document.querySelectorAll('.avatar-select').forEach(function (item) {
+                        item.classList.remove('selected');
+                    });
+                    img.classList.add('selected');
+                });
+            });
+
+            // no quitar 2 se reinicia todo
+            chatForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+            });
+        });
+
+    </script>
 </body>
 </html>

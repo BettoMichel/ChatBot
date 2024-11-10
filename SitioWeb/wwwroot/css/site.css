@@ -1,16 +1,17 @@
-    body {
-        background: #ddd;
-        margin-top: 10px;
-    }
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ddd;
+    margin-top: 10px;
+}
 
 .chat-box {
     height: 100%;
     width: 100%;
     background-color: #f0f0f0;
     background-image: url('https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMHBjfGVufDB8fDB8fHww');
-    background-size: cover; /* Para que la imagen cubra todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     overflow: hidden;
 }
 
@@ -161,4 +162,90 @@
     ::-webkit-scrollbar-track {
     background-color: #ccc; /* Grisclaro */
     border-radius: 10px;
+}
+    .avatar-select {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+    .avatar-select:hover {
+        transform: scale(1.1); /* El epico Zoom*/
+    }
+
+    .selected {
+    border: 2px solid #4caf50;
+}
+    #submitSelection {
+    margin-top: 15px;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.chat-left .chat-avatar {
+    float: left;
+}
+
+.chat-left .chat-body {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.chat-left .chat-content {
+    float: left;
+    margin: 0 0 10px 20px;
+    color: #ffffff;
+    background-color: #6a4c9c;
+}
+
+    .chat-left .chat-content:before {
+        right: auto;
+        left: -10px;
+        border-right-color: #dfe9ef;
+        border-left-color: transparent;
+    }
+
+.chat-left .chat-time {
+    color: #a3afb7;
+}
+
+
+.chat-right .chat-avatar {
+    float: right;
+}
+
+.chat-right .chat-body {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.chat-right .chat-content {
+    float: right;
+    margin: 0 20px 10px 0;
+    color: #fff;
+    background-color: #003366;
+}
+
+    .chat-right .chat-content:before {
+        position: absolute;
+        top: 10px;
+        right: -10px;
+        width: 0;
+        height: 0;
+        content: '';
+        border: 5px solid transparent;
+        border-left-color: #62a8ea;
+    }
+
+.chat-right .chat-time {
+    color: rgba(255, 255, 255, 0.6);
 }
